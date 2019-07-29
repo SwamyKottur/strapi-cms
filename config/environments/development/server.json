@@ -1,0 +1,16 @@
+{
+  "host": "localhost",
+  "port": 1337,
+  "proxy": {
+    "enabled": false
+  },
+  "cron": {
+    "enabled": false
+  },
+  "admin": {
+    "path": "/dashboard",
+    "build": {
+      "backend": "http://localhost:8081"
+    }
+  }
+}
